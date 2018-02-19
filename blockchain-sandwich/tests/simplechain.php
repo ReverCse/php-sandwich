@@ -15,5 +15,3 @@
     $six_coin->addBlock(new Block(2, "Second Block!", date_timestamp_get(new DateTime)));
 
     echo(json_encode($six_coin, JSON_PRETTY_PRINT));
-
-?>
